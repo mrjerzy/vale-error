@@ -1,0 +1,8 @@
+extends: substitution
+message: Use '%s' instead of '%s'
+level: error
+scope: [paragraph, sentence]
+ignorecase: false
+swap:
+  '[tT]his[ -]*[iI]s': This-Is
+  'This-Is[ -]*[uU]nexpected': This-Is-Unexpected
